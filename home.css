@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body, #homePage {
+    color: #333533;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+nav .pure-menu-link {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+header {
+    padding: 1em;
+    background-color: #F5CB5C;
+    color: #333533;
+}
+
+header {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #333533;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.pure-button-active {
+    font-weight: bold;
+}
+
+.information{
+    background: lightblue;
+    width: 580px;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    box-shadow: 2px 5px 20px rgba(119,119,119,.5);
+}
+.clubs {
+    width:80%;
+    height:190px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:20px;
+    position: relative;
+    margin:auto;
+}
+.club1 {
+    float:left;
+    width:180px;
+    height:180px;
+    background-color:white;
+    margin-left:1%;
+    box-shadow: 2px 5px 20px rgba(119,119,119,.5);
+}
+.club2 {
+    float:left;
+    width:180px;
+    height:180px;
+    background-color:white;
+    margin-left:31%;
+    box-shadow: 2px 5px 20px rgba(119,119,119,.5);
+}
+.club3 {
+    float:left;
+    width:180px;
+    height:180px;
+    background-color:white;
+    margin-left:31%;
+    box-shadow: 2px 5px 20px rgba(119,119,119,.5);
+}
