@@ -12,36 +12,43 @@
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
         <script src="index.js" defer></script>
+        <script src="https://kit.fontawesome.com/0953e152a8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:Bold">
     </head>
+
     <body>
 
-        <div id="homePage" >
-      <header>
-                <h1>Public Events</h1>
-                <nav class="pure-menu pure-menu-horizontal">
-                    <ul id="topmenu" class="pure-menu-list">
-                        <li class="pure-menu-item" v-for="item in top_menu">
-                            <a v-bind:href="item.url" class="pure-menu-link">{{item.title}}</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="clubs">
-                <div class="club1" >
-                    <a href="eventinfo.html"> <img src="party.jpg" alt="club image"></a>
-
-                </div>
-                <div class="club2">
-
-                </div>
-                <div class="club3">
-                </div>
+        <div class="nav">
+            <a href="index.html"><button class="homebtm">UNI CLUBS</button></a>
+            <a href="index.html"><button class="menubtm">LOGIN</button></a>
+            <a href="index.html"><button class="menubtm">EVENTS</button></a>
+            <a href="index.html"><button class="menubtm">CLUBS</button></a>
+        </div>
 
 
+        <div class="club-event">
+            <div class="info-left">
+                <img src="images/sampleImg0.png" alt="club event" width="300" height="400">
+                <h3>About</h3>
+                <textarea></textarea>
             </div>
-
-
+            <div class="info-right">
+                <div class="club-name">
+                    <h3>EVENT NAME</h3>
+                    <button type="button">ATTEND</button>
+                </div>
+                <div class="socials">
+                    <h3>TIME AND LOCATION</h3>
+                    <p>FRIDAY 12 MAY</p>
+                    <p>8PM</p>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
             </div>
+         </div>
+
     </body>
 
 </html>
