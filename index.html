@@ -3,58 +3,82 @@
 
     <head>
 
-        <title>Home page</title>
+        <title>ADELAIDE UNI CLUBS</title>
 
         <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="home.css">
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
         <script src="index.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+
     </head>
     <body>
 
-        <div id="homePage" >
-        <!-- <div class="topBar">
-            <a class="items" href="#home">Home</a>
-            <a href="#news">Events</a>
-            <a href="#contact">Your clubs</a>
-            <a href="#about">Settings</a>
+        <div class="nav">
+            <a href="index.html"><button class="homebtm">UNI<br>CLUBS</button></a>
+            <button class="menubtm">LOGIN</button>
         </div>
 
- -->
-            <header>
-                <h1>Uni club pages</h1>
-                <nav class="pure-menu pure-menu-horizontal">
-                    <ul id="topmenu" class="pure-menu-list">
-                        <li class="pure-menu-item" v-for="item in top_menu">
-                            <a v-bind:href="item.url" class="pure-menu-link">{{item.title}}</a>
-                        </li>
-                    </ul>
-                    <ul id="rightmenu" class="pure-menu-list-right">
-                        <li class="pure-menu-item" v-for="item in right_menu">
-                            <a v-bind:href="item.url" class="pure-menu-link">{{item.title}}</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="clubs">
-                <div class="club1" >
-                    <a href="clubinfo.html"> <img src="clubImage.jpg" alt="club image"></a>
+        <br>
 
+        <h1 class="sectionTitle">EVENTS</h1>
+
+        <div class="horizontalScrollMenu">
+
+            <a href="user.html">
+                <div class="roundedbanner firstBanner">
+                    <img class="clubEvent" src="images/sampleImg0.png" width="350" height="450">
+                    <h1>EVENT A</h1>
+                    <p class="subtitle">CLUB A</p>
                 </div>
-                <div class="club2">
+            </a>
 
+            <a href="user.html">
+                <div class="roundedbanner">
+                    <img class="clubEvent" src="images/sampleImg0.png" width="350" height="450">
+                    <h1>EVENT B</h1>
+                    <p class="subtitle">CLUB B</p>
                 </div>
-                <div class="club3">
+            </a>
+
+            <a href="user.html">
+                <div class="roundedbanner">
+                    <img class="clubEvent" src="images/sampleImg0.png" width="350" height="450">
+                    <h1>EVENT C</h1>
+                    <p class="subtitle">CLUB C</p>
                 </div>
+            </a>
 
+            <a href="user.html">
+                <div class="roundedbanner">
+                    <img class="clubEvent" src="images/sampleImg0.png" width="350" height="450">
+                    <h1>EVENT D</h1>
+                    <p class="subtitle">CLUB D</p>
+                </div>
+            </a>
 
-            </div>
+            <a href="user.html">
+                <div class="roundedbanner">
+                    <img class="clubEvent" src="images/sampleImg0.png" width="350" height="450">
+                    <h1>EVENT E</h1>
+                    <p class="subtitle">CLUB E</p>
+                </div>
+            </a>
+        </div>
 
+        <h1 class="sectionTitle">CLUBS</h1>
 
-            </div>
+        <div class="horizontalScrollMenu">
+            <a href="user.html">
+                <div class="roundedbanner firstBanner">
+                    <img class="clubEvent" src="images/clubImage.jpg">
+                    <h1>EVENT A</h1>
+                    <p class="subtitle">CLUB A</p>
+                </div>
+            </a>
+        </div>
+
     </body>
 
 </html>

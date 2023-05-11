@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Space Mono';
 }
 
 body, #homePage {
@@ -29,8 +30,9 @@ header {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
+    /*font-family: 'Playfair Display', serif;
+    font-weight: 500;*/
+    font-family: 'Space Mono';
 }
 
 .pure-button-active {
@@ -123,6 +125,89 @@ h1, h2, h3, h4, h5 {
     width:100%;
     background-color: #118ab2;
     background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
-
-
 }
+
+html{
+    background-color: #fafafa;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding-top: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sectionTitle{
+    padding-left: 5%;
+}
+
+.nav {
+    background-color: rgba(45, 45, 45, 0.98);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+  }
+
+.homebtm{
+    float: left;
+    color: #f2f2f2;
+    background-color: transparent;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    text-align: left;
+  }
+
+.menubtm{
+    float: right;
+    color: #f2f2f2;
+    background-color: transparent;
+    text-align: center;
+    padding: 35px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+  }
+
+  .roundedbanner{
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px; 
+    width: 400px;
+    height: 620px;
+    margin: left;
+    text-align: Left;
+    filter: drop-shadow(0rem 0.5rem 0.5rem #E5E5E5);
+    display: inline-block;
+  }
+
+  .subtitle{
+    margin: 0;
+    margin-top: -5%;
+  }
+
+  div.horizontalScrollMenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+  }
+
+  .horizontalScrollMenu::-webkit-scrollbar {
+    display: none;
+  }
+  
+  div.horizontalScrollMenu a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+  }
