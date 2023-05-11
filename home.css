@@ -227,6 +227,15 @@ a{
     padding: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .clubIcon {
+    border-radius: 5%;
+  }
+
+  .clubListItem:hover {
+    background: #d2d1d1;
   }
 
   .subtitle{
