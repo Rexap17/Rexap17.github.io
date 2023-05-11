@@ -202,9 +202,9 @@ a{
     margin: auto;
   }
 
-  .horizontalScrollMenu::-webkit-scrollbar {
+  /*.horizontalScrollMenu::-webkit-scrollbar {
     display: none;
-  }
+  }*/
   
   div.horizontalScrollMenu a {
     display: inline-block;
