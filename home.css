@@ -200,7 +200,7 @@ a{
   .roundedbanner{
     border-radius: 15px;
     background: #FFFFFF;
-    padding: 20px; 
+    padding: 20px;
     width: 400px;
     height: 620px;
     margin: left;
@@ -252,7 +252,7 @@ a{
   /*.horizontalScrollMenu::-webkit-scrollbar {
     display: none;
   }*/
-  
+
   div.horizontalScrollMenu a {
     display: inline-block;
     padding: 15px;
@@ -276,7 +276,7 @@ a{
  .eventBannerContainer::-webkit-scrollbar {
     display: none;
   }
-  
+
 
 .eventBanner {
     flex: 0 0 auto;
