@@ -13,12 +13,12 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
         <script src="index.js" defer></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0953e152a8.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
         <div id="homePage" >
-            <div id = "userPage">
+            <div class = "userPage">
 
             <header>
                 <h1>User Information</h1>
@@ -31,28 +31,33 @@
                 </nav>
             </header>
 
-
         <div class="information">
-                <div id="left">
-                    <i class="fa-solid fa-user fa-xl"></i>
+                <div class="left">
+                    <i class="fa-solid fa-user fa-2xl"></i>
                     <h4>Isaac Joynes</h4>
                     <p>System Manager</p>
 
                 </div>
-
+                <div class="vl"></div>
                 <div class="right">
-                    <div class="info">
+
                         <h3>Information</h3>
-                        <div class="info_data">
+
+                            <div class="data">
+                                <h4>Name</h4>
+                                <input type="text" class="input" value= "Isaac Joynes" >
+                           </div>
                              <div class="data">
                                 <h4>Email:</h4>
                                 <input type="text" class="input" value= "example@example.com">
                              </div>
-                             <div class="data">
-                               <h4>Name</h4>
-                               <input type="text" class="input" value= "Isaac Joynes" >
-                          </div>
-                        </div>
+
+                          <div class="data">
+                            <h4>Password</h4>
+                            <input type="password" class="input" value= "password" >
+                            <button type="button">Update</button>
+
+
                     </div>
          </div>
          </div>
@@ -61,18 +66,24 @@
         <h3>Your Clubs</h3>
         <div class="clubs">
             <div class="club1">
-                <img src="clubImage.jpg" alt="club image">
+                <a href="clubinfo.html"> <img src="clubImage.jpg" alt="club image"></a>
             </div>
             <div class="club2">
 
             </div>
             <div class="club3">
             </div>
-
-
         </div>
+        <div class="events">
+            <div class="club1">
+                <a href="eventinfo.html"> <img src="party.jpg" alt="club image"></a>
+            </div>
+            <div class="club2">
 
-
+            </div>
+            <div class="club3">
+            </div>
+        </div>
          </div>
          </div>
     </body>

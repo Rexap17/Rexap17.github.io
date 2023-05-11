@@ -3,8 +3,8 @@ const vueinst = new Vue({
     data: {
       top_menu: [{ title:'Home', url:'index.html' },
       { title:'Events',url:'/events' },
-      { title:'Your Clubs',url:'/yourclubs' },
-      { title:'Settings',url:'user.html'}]
+      { title:'Settings',url:'user.html'}],
+      right_menu: [{title:'Sign Up', url:'/login'}]
 
     },
 });
