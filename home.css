@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Space Mono';
+    font-weight: 400;
 }
 
 body, #homePage {
@@ -144,6 +145,8 @@ a{
 
 .sectionTitle{
     padding-left: 5%;
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .nav {
@@ -191,6 +194,26 @@ a{
     display: inline-block;
   }
 
+  .clubList{
+    display: inline-block;
+    padding: 10px;
+    margin-top: -50px;
+  }
+
+  .clubListItem{
+    border-radius: 15px;
+    background: #FFFFFF;
+    width: 300px;
+    height: 370px;
+    margin: left;
+    text-align: Left;
+    filter: drop-shadow(0rem 0.5rem 0.5rem #E5E5E5);
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
   .subtitle{
     margin: 0;
     margin-top: -5%;
@@ -209,5 +232,6 @@ a{
   div.horizontalScrollMenu a {
     display: inline-block;
     padding: 15px;
+    margin-left: 20px;
     text-decoration: none;
   }
