@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="login.css">
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
         <script src="index.js" defer></script>
@@ -16,35 +16,28 @@
     <body>
 
         <div id="homePage" >
-        <!-- <div class="topBar">
-            <a class="items" href="#home">Home</a>
-            <a href="#news">Events</a>
-            <a href="#contact">Your clubs</a>
-            <a href="#about">Settings</a>
-        </div>
+            <div class="container">
 
- -->
-            <header>
-                <h1>Uni club pages</h1>
-                <nav class="pure-menu pure-menu-horizontal">
-                    <ul id="topmenu" class="pure-menu-list">
-                        <li class="pure-menu-item" v-for="item in top_menu">
-                            <a v-bind:href="item.url" class="pure-menu-link">{{item.title}}</a>
-                        </li>
-                    </ul>
-                    <ul id="rightmenu" class="pure-menu-list">
-                        <li class="pure-menu-item" v-for="item in right_menu">
-                            <a v-bind:href="item.url" class="pure-menu-link">{{item.title}}</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="sign">
-
-                <h1>hi</h1>
+            <div class="middle">
+                <h1>Login</h1>
+                <form method="post">
+                    <div class="text">
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="text">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="forgot">Forgot Password?</div>
+                    <button type="button" id="submitButton">Submit</button>
+                    <div class="singup">
+                        Not a member? <a href="#">Signup</a>
+                    </div>
+                </form>
 
             </div>
-
+        </div>
 
             </div>
     </body>
