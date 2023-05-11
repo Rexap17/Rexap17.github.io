@@ -15,6 +15,11 @@ nav .pure-menu-link {
     color: #ff0000;
     font-weight: bold;
 }
+
+button{
+    border: none;
+}
+
 .pure-menu-list-right{
     float:right;
 }
@@ -119,7 +124,7 @@ h1, h2, h3, h4, h5 {
     margin-top: 5%;
 }
 .club-name{
-    margin-bottom:150px;
+    margin-bottom:200px;
 }
 .userPage{
     height:100%;
@@ -144,7 +149,7 @@ a{
 }
 
 .sectionTitle{
-    padding-left: 5%;
+    padding-left: 70px;
     font-weight: 700;
     font-size: 50px;
 }
@@ -164,11 +169,12 @@ a{
     color: #f2f2f2;
     background-color: transparent;
     text-align: center;
-    padding: 14px 40px;
+    padding: 27px 40px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 27px;
     border: none;
     text-align: left;
+    font-weight: 700;
   }
 
 .menubtm{
@@ -197,7 +203,7 @@ a{
   .clubList{
     display: inline-block;
     padding: 10px;
-    margin-top: -50px;
+    margin-left: 40px;
   }
 
   .clubListItem{
@@ -211,7 +217,7 @@ a{
     display: inline-block;
     padding: 20px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .subtitle{

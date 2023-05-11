@@ -13,41 +13,37 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
         <script src="index.js" defer></script>
         <script src="https://kit.fontawesome.com/0953e152a8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:Bold">
     </head>
     <body>
 
-        <div id="homePage" >
+        <div class="nav">
+            <a href="index.html"><button class="homebtm">UNI CLUBS</button></a>
+            <a href="index.html"><button class="menubtm">LOGIN</button></a>
+            <a href="index.html"><button class="menubtm">EVENTS</button></a>
+            <a href="index.html"><button class="menubtm">CLUBS</button></a>
+        </div>
 
-            <header>
-                <h1>Uni club pages</h1>
-                <nav class="pure-menu pure-menu-horizontal">
-                    <ul id="topmenu" class="pure-menu-list">
-                        <li class="pure-menu-item" v-for="item in top_menu">
-                            <a v-bind:href="item.url" class="pure-menu-link">{{item.title}}</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
 
-            <div class="club-info">
-                <div class="info-left">
-                    <img src="clubImage.jpg" alt="club image">
-                    <h3>About</h3>
-                    <textarea></textarea>
+        <div class="club-info">
+            <div class="info-left">
+                <img src="clubImage.jpg" alt="club image" width="300" height="300">
+                <h3>About</h3>
+                <textarea></textarea>
+            </div>
+            <div class="info-right">
+                <div class="club-name">
+                    <h3>CLUB NAME</h3>
+                    <button type="button">JOIN</button>
                 </div>
-                <div class="info-right">
-                    <div class="club-name">
-                        <h3>Club name</h3>
-                        <button type="button">Join Club</button>
-                    </div>
-                    <div class="socials">
-                        <h3>Socials</h3>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-                    </div>
-         </div>
+                <div class="socials">
+                    <h3>SOCIALS</h3>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
          </div>
 
     </body>
