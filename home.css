@@ -260,7 +260,8 @@ a{
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    transition-duration: 2s; /* change the duration here */
+    transition-duration: 2s;
+    position: relative;
 }
 
  .eventBannerContainer::-webkit-scrollbar {
@@ -295,15 +296,15 @@ a{
 
 .scrollLeft,
 .scrollRight {
-  position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size: 2rem;
-  z-index: 1;
-  cursor: pointer;
+    position: absolute;
+    top: 350px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
 }
 
 .scrollLeft {
