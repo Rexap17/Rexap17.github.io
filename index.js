@@ -8,3 +8,21 @@ const vueinst = new Vue({
 
     },
 });
+
+const bannerContainer = document.querySelector('.eventBannerContainer');
+const scrollLeftBtn = document.querySelector('.scrollLeft');
+const scrollRightBtn = document.querySelector('.scrollRight');
+
+scrollLeftBtn.addEventListener('click', () => {
+  bannerContainer.scrollBy({
+    left: -300,
+    behavior: 'smooth',
+  });
+});
+
+scrollRightBtn.addEventListener('click', () => {
+  bannerContainer.scrollBy({
+    left: 300,
+    behavior: 'smooth'
+  });
+});
